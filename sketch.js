@@ -37,7 +37,7 @@ function setup() {
 }
 
 function draw() {
-  background("black");
+  background(bg);
   Engine.update(engine);  
   drawSprites();
   text(mouseX,100,200)
